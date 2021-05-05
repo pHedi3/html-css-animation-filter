@@ -291,7 +291,7 @@
 /* es 13  */
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: tran-l-1 4s 1 linear;
+    animation: tran-l-1 5s 1 linear;
 }
 
 @keyframes tran-l-1 {
@@ -302,28 +302,29 @@
     }
 
     20% {
-        left: calc(100%-30px);
+        left: calc(100% - 30px);
         top: -10px;
 
     }
 
     40% {
-        left: calc(100%-30px);
+        left: calc(100% - 30px);
         top: 60px;
 
     }
 
     60% {
-        left: -30px;
+        left: calc(0% - 30px);
         top: 60px;
 
     }
 
     80% {
-        left: -30px;
+        left: calc(0% - 30px);
         top: -10px;
 
     }
+
 
     100%{
         left: 10%;
@@ -334,7 +335,7 @@
 
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: tran-r-1 4s 1 linear;
+    animation: tran-r-1 5s 1 linear;
 }
 
 @keyframes tran-r-1 {
@@ -345,25 +346,25 @@
     }
 
     20% {
-        right: 100%;
+        right: calc(100% - 30px);
         bottom: -10px;
 
     }
 
     40% {
-        right: 100%;
+        right: calc(100% - 30px);
         bottom: 60px;
 
     }
 
     60% {
-        right: -30px;
+        right: calc(0% - 30px);
         bottom: 60px;
 
     }
 
     80% {
-        right: -30px;
+        right: calc(0% - 30px);
         bottom: -10px;
 
     }
