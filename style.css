@@ -196,3 +196,93 @@
 
 
 /* es 10  */
+.ex-10-icon {
+    animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        transform: rotate(180deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+/* es 11  */
+
+.ex-11-icon:hover {
+    animation: rotate-2 1s 1 linear;
+}
+
+@keyframes rotate-2 {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    75% {
+        transform: rotate(270deg);
+
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+
+    }
+}
+
+
+
+/* es 12  */
+.ex-12-button:hover .ex-12-top-white {
+    animation: tran-l 2s 1 linear;
+}
+
+@keyframes tran-l {
+    0% {
+        left: 10%;
+
+    }
+
+    50% {
+        left: calc(100% - 60px);
+
+    }
+
+    100%{
+        left: 10%;
+
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: tran-r 2s 1 linear;
+}
+
+@keyframes tran-r {
+    0% {
+        right: 10%;
+
+    }
+
+    50% {
+        right: calc(100% - 60px);
+
+    }
+
+    100%{
+        right: 10%;
+
+    }
+}
