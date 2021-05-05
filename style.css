@@ -302,13 +302,13 @@
     }
 
     20% {
-        left: 100%;
+        left: calc(100%-30px);
         top: -10px;
 
     }
 
     40% {
-        left: 100%;
+        left: calc(100%-30px);
         top: 60px;
 
     }
