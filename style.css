@@ -67,3 +67,58 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* qui inizia la soluzione dell'esercizio  */
+
+/* ES 1  */
+
+.ex-1-square {
+    background-color: none;
+    transition: background-color 2s ease 0.3s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+
+/* ES 2  */
+
+.ex-2-square {
+    width: 100px;
+    transition: width 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+
+/* ES 3 */
+
+.ex-3-square {
+    border-radius: 0;
+    transition: border-radius 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+
+/* ES 4 */
+
+.ex-4-square {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+
+}
+
+
+/* ES 5  */
+
