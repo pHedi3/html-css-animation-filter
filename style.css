@@ -122,3 +122,31 @@
 
 /* ES 5  */
 
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    transition-property: margin, width, height ;
+    transition-duration: 2s;
+
+}
+
+.ex-5-square:hover {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    margin: 40px;
+    width: 20px;
+    height: 20px;
+
+}
+
+/* es 6  */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
